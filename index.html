@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External JavaScript file conversion -->
+    <script src="calculator.js"></script>
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <!-- Header section  -->
+    <div class="top">
+        <h1>US Dollar to Canadian Dollar</h1>
+        <h3>Convert USD to CAD at the real exchange rate</h3>
+    </div>
+
+    <h2>Currency Converter</h2>
+
+    <!-- Main section  -->
+    <section>
+        <div class="part">
+            <label>Amount </label><br>
+            <input id="amount" type="number" name="">
+            <select id="fromcurrency">
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+            </select>
+        </div>
+
+        <div class="part">
+            <label> Converted To </label><br>
+            <p id="result" type="number" name=""></p>
+            <select id="tocurrency">
+                <option value="CAD">CAD</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Button to call currency conversion -->
+    <button onclick="convertCurrency()">Convert</button>
+
+    <!-- Footer section  -->
+    <footer>
+        <h4>&copy; Lambton College</h4>
+    </footer>
+</body>
+
+</html>

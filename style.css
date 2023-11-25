@@ -1,0 +1,107 @@
+
+.top {
+    width: 60%;
+    margin-left: 18%;
+    justify-content: center;  
+    height: 25vh;
+    color: white;
+    text-align: center;
+     background-color: rgb(30, 30, 103);
+}
+h2{
+    width: 40%;
+    margin-left: 20%;
+    padding: 1%;
+
+}
+
+
+section {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+/* Styling for the main content section */
+.part {
+    width: 30%;
+    height: 20vh;
+    margin: 2rem;
+    
+
+
+}
+
+#amount {
+    width: 60%;
+    height: 6vh;
+    margin-top:14px ;
+
+}
+
+#fromcurrency {
+    width: 25%;
+     height: 7vh;
+}
+
+#result {
+    width: 60%;
+    height: 6vh;
+    background-color: white;
+    border: 1px solid grey
+
+}
+p{
+    float: left;
+}
+
+#tocurrency {
+    width: 25%;
+    height: 7vh;
+    margin: 14px 4px;
+}
+
+button{
+    width: 10%;
+    margin-left: 60%;
+    height: 10vh;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 45%;
+}
+
+
+/*section {
+    width: 50%;
+    padding: 18px;
+    height: 45vh;
+    margin-left: 22%;
+    background-color: rgb(230, 230, 236);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    
+}
+
+
+img {
+    max-width: 100%;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+/* Styling for input fields */
+
+
